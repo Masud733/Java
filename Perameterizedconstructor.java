@@ -17,6 +17,16 @@ public class Prconstructor {
         gender = s;
         age = a;
     }
-        
-
 }
+
+//Test class
+public class TestClass {
+    public static void main(String[] args){
+        System.out.println("Hello World!");
+        Prconstructor pr = new Prconstructor("Masud","Male",22);
+        System.out.println("\nname:"+pr.name+"\nage:"+pr.age+"\nGender:"+pr.gender);
+    }
+           
+    
+}
+
