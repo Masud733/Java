@@ -1,0 +1,20 @@
+public class Classsdeclaretion {
+    String name, gender;
+    int age;
+
+void display(){
+    System.out.println("New method!");
+   }
+}
+public class classMethod {
+    public static void main(String[] args){
+        System.out.println("Hello World1");
+        Classsdeclaretion cls = new Classsdeclaretion();
+        cls.name = "Masud Mehrab";
+        cls.gender = "Male";
+        cls.age = 22;
+        cls.display();
+        System.out.println("\nName: "+cls.name+"\nGender: "+cls.gender+"\nAge: "+cls.age);
+    }
+    
+}
