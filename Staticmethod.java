@@ -31,3 +31,16 @@ static void display2(){
     
 }
 }
+//Test class
+public class NewClass {
+    public static void main(String[] args){
+        Staticmethod obj = new Staticmethod("Masud Mehrab", 120733);
+        obj.display();
+        Staticmethod.display1();
+        System.out.println(Staticmethod.University);
+        Staticmethod.display2();
+        System.out.println(Staticmethod.University);
+        
+    }
+    
+}
