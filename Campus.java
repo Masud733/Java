@@ -23,5 +23,14 @@ void display(){
     System.out.println("Id: "+id);
 }
 }
+public class Classcampus {
+    public static void main(String[] args){
+        Campus p = new Campus("Masud", 1023330);
+        p.display();
+        System.out.println("University name: "+Campus.University);
+    }
+    
+}
+
 
     
